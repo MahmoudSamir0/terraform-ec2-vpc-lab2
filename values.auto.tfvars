@@ -1,0 +1,11 @@
+vpc-name       = "myvpc"
+subnet-name    = ["mypublic", "myprivet"]
+subnet_id      = ["10.0.0.0/24", "10.0.1.0/24"]
+ec2-ami        = "ami-00874d747dde814fa"
+nat-name       = "mynat"
+route-nat      = "myprivetnat"
+ec2-type       = "t2.micro"
+ec2-key        = "mahmoud-key"
+rout-public    = "Public Route Table"
+internet-get   = "internet-getway"
+true-and-false = ["true", "false"]
